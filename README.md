@@ -1,3 +1,6 @@
+On going project. Beginning phase, planned to be ready latest 1st of February. 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
