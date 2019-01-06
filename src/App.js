@@ -8,9 +8,9 @@ import Skills from './components/Skills/Skills';
 import Contact from './components/Contact/Contact';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee, faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import { faCheckSquare, faCoffee, faEnvelope, faFemale, faChartBar, faUniversity, faFile} from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faCheckSquare, faCoffee, faEnvelope)
+library.add(fab, faCheckSquare, faCoffee, faEnvelope, faFemale, faChartBar, faUniversity, faFile)
 
 class App extends Component {
   state = {

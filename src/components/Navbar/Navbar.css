@@ -2,7 +2,7 @@
   position: fixed;
   top:0;
   left:0;
-  background-color: #ceb8cc;
+  background-color: #3AD29F;
   width: 100%;
   height: 56px;
   margin-top: 0px;
@@ -40,16 +40,17 @@
   padding: 1.5rem;
 }
 
-.navbar_navigation-items {
+.navbar_navigation-items a {
   color: white;
+  font:bold;
   text-decoration: none;
 }
 
 .navbar_navigation-items a:hover{
-  color: green;
+  color: #8B3AD2;
   }
   .navbar_navigation-items a:active {
-    color: green;
+    color: #8B3AD2;
   }
 
   @media (max-width: 768px) {
