@@ -16,9 +16,9 @@ const navbar = props => (
             <ul>
                 <Link to="Aboutme"><li><a href="/">About Me</a></li></Link>
                 <Link to="Skills" offset={-100} smooth={ true } duration={ 500 }><li><a href="/">Skills</a></li></Link>
-                <Link><li><a href="/">Education</a></li></Link>
-                <Link><li><a href="/">Contact</a></li></Link>
-                <Link><li><a href="/">Resume</a></li></Link>
+                <Link to="Education"><li><a href="/">Education</a></li></Link>
+                <Link to="Contact"><li><a href="/">Contact</a></li></Link>
+                <Link to="Resume"><li><a href="/">Resume</a></li></Link>
             </ul>
         </div>
         </nav>  
