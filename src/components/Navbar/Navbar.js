@@ -1,5 +1,5 @@
 import React from 'react';
-import SidebarToggle from '../Sidebar/SidebarToggle';
+import SidebarToggle from '../SidebarToggle/SidebarToggle';
 import { Link } from 'react-scroll';
 import './Navbar.css'
 
