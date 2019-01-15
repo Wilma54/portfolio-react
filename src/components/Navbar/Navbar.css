@@ -2,7 +2,7 @@
   position: fixed;
   top:0;
   left:0;
-  background-color: #3AD29F;
+  background-color: #8B3AD2;
   width: 100%;
   height: 56px;
   margin-top: 0px;
@@ -47,10 +47,10 @@
 }
 
 .navbar_navigation-items a:hover{
-  color: #8B3AD2;
+  color: #3AD29F;
   }
   .navbar_navigation-items a:active {
-    color: #8B3AD2;
+    color: #3AD29F;
   }
 
   @media (max-width: 768px) {

@@ -1,10 +1,32 @@
+
+
+.button{
+  background-color: #8B3AD2;
+  color:white;
+  border-radius: 7px;
+  font-size: 1rem;
+  padding: 15px;
+  width: 70%;
+
+}
+
 .sidebar-logo {
-  color: #3ad29f;
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: #3AD29F;
+  width: 100%;
+  height: 56px;
+  margin-top: 0px;
+}
+.sidebar-logo {
+  color: white;
+  font-size: 17px;
 }
 
 .underline {
     text-decoration-line: underline;
-    color: #3ad29f;
+    color: #33B88B;
 }
 
 .side-bar {
@@ -26,8 +48,8 @@
 }
 
 .side-bar li {
-  margin: 3.5rem 0;
-  padding-top: 10%;
+  margin: 2rem 0;
+    padding-top: 10%;
 }
 
 .side-bar ul {
@@ -37,23 +59,25 @@
   justify-content: center;
 }
 
-.side-bar li a {
-  color: #3ad29f;
+/* .side-bar li a {
+  color: #33B88B;
   text-decoration: none;
   font-size: 1rem;
-  margin: 20px;
-}
+  margin: 0px;
+ 
+} */
 
-.side-bar li a:hover {
-  color: #fa923f;
+.button:hover {
+  color: #3AD29F;
 }
-.side-bar li a:active {
-  color: #fa923f;
+.button:active {
+  color: #3AD29F;
 }
 
 .icon-style {
   margin-right: 20px;
 }
+
 
 @media (min-width: 769px) {
   .side-bar {

@@ -10,10 +10,12 @@ import LandingPage from "./components/LandingPage/LandingPage";
 import Education from './components/Education/Education';
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faFemale, faChartBar, faUniversity, faFile
+import { faEnvelope, faUser,faFemale, faChartBar, faUniversity, faFile
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(fab, faEnvelope, faFemale, faChartBar, faUniversity,
+
+
+library.add(fab, faUser,faEnvelope, faFemale, faChartBar, faUniversity,
   faFile
 );
 

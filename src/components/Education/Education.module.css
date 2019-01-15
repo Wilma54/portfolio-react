@@ -1,0 +1,33 @@
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+  }
+  
+  .square {
+	width: 35%;
+	margin: 50px 50px 20px 50px;
+	background-color: #8B3AD2;
+	color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 17px;
+	text-align: center;
+  }
+
+	.box {
+    position: inherit;
+    background-color: #B686DF;
+    width: 100%;
+    height: 56px;
+    text-align: center;
+    margin-top: 0px;
+  }
+  
+  .labels {
+    text-align: center;
+    color:white;
+    align-items: center;
+    padding: 1rem;
+    font-size: 25px;
+  }

@@ -14,67 +14,72 @@ const sidebar = (props) => {
   return (
     <nav className={drawerClasses}>
       <div className="sidebar-logo">
-        <h1>SUSSIEP</h1>
+        <p>SUSSIEP</p>
       </div>
+      <wrapper id="sidebar-wrapper">
       <ul>
         <li >
-
+        
           <Link to="Aboutme" onClick={close}>
-            <FontAwesomeIcon
-              href="/"
-              icon="female"
+            <button className="button"><FontAwesomeIcon 
+              icon="user"
               className="icon-style"
               size="2x"
-              
-            />
+           />
             About
+            </button>
           </Link>
         </li>
         <li>
           <Link to="Skills" onClick={close}>
-            <FontAwesomeIcon
+          <button className="button"><FontAwesomeIcon
               href="/"
               className="icon-style"
               icon="chart-bar"
               size="2x"
             />
             Skills
+            </button>
           </Link>
         </li>
         <li>
           <Link to="Education" onClick={close}>
-            <FontAwesomeIcon
+          <button className="button"> <FontAwesomeIcon
               href="/"
               className="icon-style"
               icon="university"
               size="2x"
             />
            Education
+           </button>
           </Link>
         </li>
         <li>
           <Link to="Contact" onClick={close}>
-            <FontAwesomeIcon
+          <button className="button"><FontAwesomeIcon
               href="/"
               className="icon-style"
               icon="envelope"
               size="2x"
             />
             Contact
+            </button>
           </Link>
         </li>
         <li>
           <Link to="Resume" onClick={close}>
-            <FontAwesomeIcon
+          <button className="button"> <FontAwesomeIcon
               href="/"
               className="icon-style"
               icon="file"
               size="2x"
             />
            Resume
+           </button>
           </Link>
         </li>
       </ul>
+      </wrapper>
     </nav>
   );
 };

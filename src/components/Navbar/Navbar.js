@@ -14,7 +14,7 @@ const navbar = props => (
         <div className="spacer" />
         <div className="navbar_navigation-items">
             <ul>
-                <Link to="Aboutme"><li><a href="/">About Me</a></li></Link>
+                <Link to="Aboutme"><li><a href="/">About</a></li></Link>
                 <Link to="Skills" offset={-100} smooth={ true } duration={ 500 }><li><a href="/">Skills</a></li></Link>
                 <Link to="Education"><li><a href="/">Education</a></li></Link>
                 <Link to="Contact"><li><a href="/">Contact</a></li></Link>
