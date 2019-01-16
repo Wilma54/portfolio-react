@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 // import Winter from '../../Images/Winter.jpeg';
-import styles from './LandingPage.module.css';
-import Bgtrial from '../../Images/Bgtrial.jpeg';
+// import styles from './LandingPage.module.css';
+// import Bgtrial from '../../Images/Bgtrial.jpeg';
+// import styled from 'styled-components';
+
 
 class Landingpage extends Component {
     state = {  };
@@ -17,24 +19,45 @@ class Landingpage extends Component {
           });
      
       }
-
+ 
         
     render() { 
-        return ( 
-<div>
-<img src={Bgtrial} className={styles.bgtrial} alt="bgtrial"/>
-    {/* <img src={Winter} className={styles.winter} alt="winter"/> */}
-    <div>
-    <h2>Driven Student Frontend Developer</h2>
-    <p>{this.state.temp}</p>
+    //     const Content = styled.div`
     
-</div>
-</div>
-         );
-        }
-    }
+    //     background-image: url(${Bgtrial});
 
+    //     width: 2000px;
+    //     height: 2000px;
+    // `;
+        return ( 
+
+            <wrapper>
+
+<div>
+
+{/* <Content/> */}
+<p>{this.state.temp}</p>
+</div>
+
+</wrapper>
+// {/* <div>
  
+// <div style={{
+// backgroundImage: `url(${Bgtrial})`,
+// backgroundPosition: 'center',
+// backgroundRepeat: 'no-repeat',
+// backgroundSize: 'cover', }}
+// >
+// <h2>Driven Student Frontend Developer</h2>
+//
+// </div>    
 
+// </div> */}
+    
 
+)
+  
+    }};
+        
+ 
 export default Landingpage;

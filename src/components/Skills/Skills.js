@@ -2,32 +2,42 @@ import React from 'react';
 import { Element } from 'react-scroll';
 // import AboutMe from '../Aboutme/AboutMe';
 // import './Skills.css';
+import styles from './Skills.module.css';
 import SkillBar from 'react-skillbars';
 
 const skills = [
-    {type: "Java", level: 85},
-    {type: "Javascript", level: 75},
+    {type: "HTML", level: 70},
+    {type: "CSS", level: 60},
+    {type: "JavaScript", level: 30},
+    {type: "React", level: 30},
+    {type: "SAP", level: 80},
+    {type: "ProblemSolver", level: 100},
+    {type: "BusinessRelations", level: 100},
   ];
+  const colors = {
+    bar: " #D7CCE2",
+    title: {
+    text: 'white',
+    textalign: 'left',
+    background: '#34194B',
+    }
+  }
+
+
+
 const Skills= () => (
     <Element name="Skills">
     <section>
-<h1>SKILLS</h1>
-<SkillBar skills={skills}/>
-
-{/* <div id="background-wrap">
-    <div class="bubble x1"></div>
-    <div class="bubble x2"></div>
-    <div class="bubble x3"></div>
-    <div class="bubble x4"></div>
-    <div class="bubble x5"></div>
-    <div class="bubble x6"></div>
-    <div class="bubble x7"></div>
-    <div class="bubble x8"></div>
-    <div class="bubble x9"></div>
-    <div class="bubble x10"></div>
-</div>
-
-<AboutMe/> */}
+    <wrapper>
+    <div className={styles.box}>
+<h1 className={styles.labels}>SKILLS</h1>
+<div className={styles.skillbar}>
+<SkillBar skills={skills} 
+height={'8vh'} colors={colors} 
+ />
+ </div>
+ </div>
+ </wrapper>
     </section>
     </Element>
 )
