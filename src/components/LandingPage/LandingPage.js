@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
+import { Element } from "react-scroll";
 // import Winter from '../../Images/Winter.jpeg';
-// import styles from './LandingPage.module.css';
-// import Bgtrial from '../../Images/Bgtrial.jpeg';
+import styles from './LandingPage.module.css';
+// import Bgtrial from '../../Images/Bgtrial.jpg';
 // import styled from 'styled-components';
+
 
 
 class Landingpage extends Component {
@@ -19,44 +21,22 @@ class Landingpage extends Component {
           });
      
       }
- 
-        
+   
+  
     render() { 
-    //     const Content = styled.div`
-    
-    //     background-image: url(${Bgtrial});
+     
 
-    //     width: 2000px;
-    //     height: 2000px;
-    // `;
-        return ( 
 
-            <wrapper>
+    return ( 
+   <Element>
+<section className={styles.backg}>   
+<div className={styles.content}>
 
-<div>
-
-{/* <Content/> */}
 <p>{this.state.temp}</p>
 </div>
-
-</wrapper>
-// {/* <div>
- 
-// <div style={{
-// backgroundImage: `url(${Bgtrial})`,
-// backgroundPosition: 'center',
-// backgroundRepeat: 'no-repeat',
-// backgroundSize: 'cover', }}
-// >
-// <h2>Driven Student Frontend Developer</h2>
-//
-// </div>    
-
-// </div> */}
-    
-
+</section>   
+</Element>    
 )
-  
     }};
         
  

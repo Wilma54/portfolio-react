@@ -1,7 +1,8 @@
-.skillbar {
+.skillb {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
+    z-index:-3;
 }
 
 .box {
@@ -27,3 +28,23 @@ h2 {
     font-size: 20px;
    
 }
+
+.scro {
+    z-index: -3;
+}
+
+/* .skillbar {
+    z-index:-1;
+  }
+  
+  .skillbar-bar {
+    z-index: 4;
+  }
+  
+  .skillbar-title {
+    z-index: 4;
+  }
+  
+  .skillbar-percent {
+    z-index:5;
+  } */

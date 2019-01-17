@@ -1,20 +1,20 @@
 import React from 'react';
 import SidebarToggle from '../SidebarToggle/SidebarToggle';
 import { Link } from 'react-scroll';
-import './Navbar.css'
+import styles from './Navbar.module.css';
 
 
 const navbar = props => (
-    <header className="navbar">
-        <nav className="navbar__navigation">
-        <div className="toolbar__toggle-button">
+    <header className={styles.navbar}>
+        <nav className={styles.navbarNavigation}>
+        <div className={styles.toolbarToggleButton}>
             <SidebarToggle click={props.drawerClickHandler} />
         </div>
-        <div className="navbar__logo"><a href="/">SUSSIEP</a></div>
-        <div className="spacer" />
-        <div className="navbar_navigation-items">
+        <div className={styles.navbarlogo}><a href="/">SUSSIEP</a></div>
+        <div className={styles.spacer} />
+        <div className={styles.navbarNavigationItems}>
             <ul>
-                <Link to="Aboutme"><li><a href="/">About</a></li></Link>
+            <li><Link to="Aboutme">About</Link></li>
                 <Link to="Skills" offset={-100} smooth={ true } duration={ 500 }><li><a href="/">Skills</a></li></Link>
                 <Link to="Education"><li><a href="/">Education</a></li></Link>
                 <Link to="Contact"><li><a href="/">Contact</a></li></Link>

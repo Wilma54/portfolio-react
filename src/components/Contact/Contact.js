@@ -9,11 +9,11 @@ const Contact = () => (
     <div className={styles.box}>
 <h1 className={styles.labels}>CONTACT</h1>
     <div className={styles.container}>      
-        <FontAwesomeIcon 
+        <FontAwesomeIcon className={styles.contacts}
         icon= "envelope" />     
-        <FontAwesomeIcon 
+        <FontAwesomeIcon className={styles.contacts}
         icon={['fab','linkedin']} />
-        <FontAwesomeIcon 
+        <FontAwesomeIcon className={styles.contacts}
         icon={['fab','github']}/>
     </div>
     </div>

@@ -24,20 +24,20 @@ const skills = [
   }
 
 
-
 const Skills= () => (
     <Element name="Skills">
-    <section>
-    <wrapper>
+    <section className={styles.scro}>
+  
     <div className={styles.box}>
 <h1 className={styles.labels}>SKILLS</h1>
-<div className={styles.skillbar}>
+<div className={styles.skillb}>
 <SkillBar skills={skills} 
 height={'8vh'} colors={colors} 
  />
  </div>
  </div>
- </wrapper>
+ 
+
     </section>
     </Element>
 )

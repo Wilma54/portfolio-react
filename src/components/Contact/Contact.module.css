@@ -20,3 +20,10 @@
       flex-direction: column;
       
   }
+
+  .contacts {
+    color: #34194B;
+    font-size: 60px;
+    margin-left: 5%;
+
+  }
