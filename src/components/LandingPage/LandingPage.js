@@ -4,6 +4,7 @@ import { Element } from "react-scroll";
 import styles from './LandingPage.module.css';
 // import Bgtrial from '../../Images/Bgtrial.jpg';
 // import styled from 'styled-components';
+import sussiep from '../../Images/sussiep.png';
 
 
 
@@ -24,15 +25,13 @@ class Landingpage extends Component {
    
   
     render() { 
-     
-
-
-    return ( 
-   <Element>
-<section className={styles.backg}>   
+         return ( 
+   <Element name="LandingPage" >
+<section className={styles.backg} >   
 <div className={styles.content}>
-
+ <img className={styles.sussie} src={sussiep} alt='selfpotrait'></img>
 <p>{this.state.temp}</p>
+<p className={styles.student}>Frontend Developer Student / Looking for internship</p>
 </div>
 </section>   
 </Element>    

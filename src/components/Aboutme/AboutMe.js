@@ -6,7 +6,8 @@ import styles from './AboutMe.module.css';
 
 const AboutMe = () => (
   <Element name="Aboutme">
-    <section>
+    <section className={styles.backg}>
+    <wrapper>
       <div className={styles.box}>
     <h1 className={styles.labels}>ABOUT</h1>
     </div>
@@ -21,7 +22,7 @@ const AboutMe = () => (
     <p>I am still engaged in my passion for help others and to solve problems, becoming a Frontend Developer will let me continue this work. </p>
     <h2>Current Focus: JavaScript, React</h2>
     </div>
-    
+    </wrapper>
     </section>
   </Element>
 );

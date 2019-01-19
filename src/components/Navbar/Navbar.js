@@ -15,10 +15,10 @@ const navbar = props => (
         <div className={styles.navbarNavigationItems}>
             <ul>
             <li><Link to="Aboutme">About</Link></li>
-                <Link to="Skills" offset={-100} smooth={ true } duration={ 500 }><li><a href="/">Skills</a></li></Link>
-                <Link to="Education"><li><a href="/">Education</a></li></Link>
-                <Link to="Contact"><li><a href="/">Contact</a></li></Link>
-                <Link to="Resume"><li><a href="/">Resume</a></li></Link>
+            <li><Link to="Skills" offset={-100} smooth={ true } duration={ 500 }>Skills</Link></li>
+            <li><Link to="Education">Education</Link></li>
+            <li><Link to="Contact">Contact</Link></li>
+            <li><Link to="Resume">Resume</Link></li>
             </ul>
         </div>
         </nav>  

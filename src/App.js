@@ -49,18 +49,8 @@ class App extends Component {
           hide={this.sidebarToggleClickHandler}
         />
         {backdrop}
-        {/*       
-        <main className="susie">
-      <h1>Susanne Pettersson</h1>
-      <h2>Student - Frontend Developer</h2>
-      <h2>Student - Frontend Developer</h2>
-      <h2>Student - Frontend Developer</h2>
-      <h2>Student - Frontend Developer</h2>
-      <h2>Student - Frontend Developer</h2>
-      <h2>Student - Frontend Developer</h2>
-      </main> */}
+        
         <LandingPage />
-
         <AboutMe />
         <Skills />
         <Education/>

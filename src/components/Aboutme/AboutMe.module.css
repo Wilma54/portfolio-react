@@ -1,15 +1,16 @@
 .box {
-    position: inherit;
+    position: relative;
     background-color: #B686DF;
     width: 100%;
     height: 56px;
     text-align: center;
-    margin-top: 0px;
+    z-index:100;
+    
   }
   
   .labels {
     text-align: center;
-    color:white;
+    color:white; 
     align-items: center;
     padding: 1rem;
     font-size: 25px;
@@ -18,20 +19,24 @@
 .look {
   margin-left: 5%;
   margin-right: 5%;
-  
-
-}
+  text-align:center;
+  }
 
 h2 {
-    margin-top:8%;
+    margin-top:3%;
    text-align: center;
     font-size: 25px;
     font:bold;
     color: #34194B;
-   
-   
-   
+   }
+
+.backg {
+  background: url('../../Images/Bgtrial.jpg') no-repeat center center; 
+  
+  background-size: cover;
 }
+
+backg * { opacity: 0.5; }
 
 
 

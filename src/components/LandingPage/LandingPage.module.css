@@ -17,15 +17,34 @@
  
 .backg {
         background: url('../../Images/Bgtrial.jpg') no-repeat center center; 
-        -webkit-background-size: cover;
+        /* -webkit-background-size: cover;
         -moz-background-size: cover;
-        -o-background-size: cover;
+        -o-background-size: cover; */
         background-size: cover;
+        
       
 }
+.backg>* { opacity:0.5; }
 
-.content {
-    z-index: 3;
-    margin-top: 50px;
-}
+/* .content {
+    z-index: 100;
+    margin-top: 50%;
+} */
   
+.sussie {
+    border-radius: 100px;
+    height: 150px;
+    width:150px;
+    margin-top: 10%;
+  }
+
+  .student {
+      margin-bottom:7%;
+      font-size: 30px;
+      text-align: center;
+  }         
+  
+  .content {
+    margin-bottom: 0%;
+    text-align:center;
+   } 
