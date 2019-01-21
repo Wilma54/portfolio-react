@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 import styles from './Navbar.module.css';
 
 
-const navbar = props => (
+const Navbar = props => (
     <header className={styles.navbar}>
         <nav className={styles.navbarNavigation}>
         <div className={styles.toolbarToggleButton}>
@@ -25,4 +25,4 @@ const navbar = props => (
     </header>
 );
 
-export default navbar;
+export default Navbar;
