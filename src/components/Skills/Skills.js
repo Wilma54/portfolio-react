@@ -8,8 +8,8 @@ import SkillBar from 'react-skillbars';
 const skills = [
     {type: "HTML", level: 70},
     {type: "CSS", level: 60},
-    {type: "JavaScript", level: 30},
-    {type: "React", level: 30},
+    {type: "JavaScript", level: 60},
+    {type: "React", level: 60},
     {type: "SAP", level: 80},
     {type: "ProblemSolver", level: 100},
     {type: "BusinessRelations", level: 100},
